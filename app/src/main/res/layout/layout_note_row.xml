@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:id="@+id/parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/icon"
+        android:background="@drawable/circle_background"
+        android:layout_centerVertical="true"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_circle"
+        android:tint="@color/colorAccent"
+        android:id="@+id/state"
+        android:padding="4dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:clickable="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginStart="16dp"
+        android:padding="8dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:layout_toStartOf="@+id/state"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginStart="16dp"
+        android:paddingLeft="8dp"
+        android:text="@string/app_name"
+        android:textColor="@color/ColorSecondaryText"
+        android:maxLines="2"
+        android:ellipsize="marquee"
+        android:lineSpacingExtra="10dp"/>
+
+
+</RelativeLayout>

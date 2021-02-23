@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Nox Notes</string>
+    <string name="welcome">Already Have an Account?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="rePassword">Retype Password</string>
+    <string name="login">Login</string>
+    <string name="logout">LogOut</string>
+    <string name="submit">Submit</string>
+    <string name="register">Registration</string>
+    <string name="signUp">Did not Sign up yet? Sign up Now</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="note">Note</string>
+    <string name="addNote">Add Note...</string>
+    <string name="editNote">Edit Note...</string>
+    <string name="title">Title</string>
+    <string name="message">Note...</string>
+    <string name="noNote">Tap + to create new Note</string>
+
+
+    <!--Settings-->
+    <string name="nightMode">Night Mode</string>
+    <string name="fontSize">Font Size</string>
+    <string name="longStory">A man stopped one day to help an old lady who was stranded on the side of the road.
+
+He decided to help her, so he stopped his Pontiac next to her Mercedes and got out.
+
+The old lady was a bit frightened and nervous because of his shabby appearance.
+
+The man, sensing this, approached carefully and tried to calm her.
+
+He said to her, “Don’t worry. I’m here to help you. My name is Bryan Anderson."
+
+He proceeded to fix her flat tire and became dirty and slightly injured in the process.
+
+When he was finished, the lady asked him how much she owed him. He responded by telling her that if she really wanted to repay him, she could pass on the kindness to someone else in their time of need.
+
+Later that evening the lady stopped at a small, dingy cafe. The waitress who served her was pregnant and tired. Despite her apparent exhaustion, the waitress was very sweet and friendly.
+
+The lady wondered how someone who was so tired from a long day of work could still be so friendly and kind to her.
+
+Then she remembered Bryan. When the lady finished her meal, she paid with a hundred dollar bill. The waitress went to get change and when she came back, the lady was gone.
+
+She left a note on the napkin…“You don’t owe me anything. Somebody once helped me, just like I’m helping you now. If you really want to pay me back, do not let this chain of love end with you."
+
+The waitress found four more one hundred dollar bills under the napkin.
+
+That night, the waitress went home early. She thought about the lady and the money she left. She wondered how the lady could possibly know how much they needed it.
+
+She knew her husband was worried and she was worried about him. She couldn’t wait to tell him the good news.
+
+Then she kissed him and whispered…Now everything
+
+
+will be okay. I love you, Bryan Anderson.</string>
+    <string name="defaultColor">Default Color</string>
+    <string name="clearAll">Clear All</string>
+
+
+    <string-array name="fonts">
+        <item>roboto.ttf</item>
+        <item>chailanka.ttf</item>
+        <item>condensed.ttf</item>
+        <item>oswald.ttf</item>
+        <item>piazzolla.ttf</item>
+        <item>regular.ttf</item>
+        <item>sansita.ttf</item>
+    </string-array>
+</resources>
